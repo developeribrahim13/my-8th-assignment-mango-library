@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import mango from '@/assets/mango.png';
+import mango from '@/assets/mango1.png';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="flex flex-col space-y-4">
                         <Link href={'/'}><div className='text-center font-extrabold text-2xl relative'>
-                            <Image src={mango} alt='mango' width={100} className='opacity-70'></Image><h2 className='text-3xl absolute top-12'>Library</h2>
+                            <Image src={mango} alt='mango' width={100} className='opacity-30'></Image><h2 className='text-3xl absolute top-12'>Library</h2>
                         </div></Link>
                         <p className="max-w-xs text-sm opacity-80 mt-2 text-gray-600">
                             The best online platform to read and collect your favorite books. Borrow books digitally and spread the light of knowledge.
