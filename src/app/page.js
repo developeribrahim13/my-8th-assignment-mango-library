@@ -1,8 +1,47 @@
 import Image from "next/image";
 import banner from '@/assets/banner.png'
+import Marquee from "react-fast-marquee";
+
+const marqueeData = [
+    {
+        id: 1,
+        text: "New Arrivals: The Silent Patient",
+        type: "arrival"
+    },
+    {
+        id: 2,
+        text: "Special Discount on Memberships - Up to 20% OFF!",
+        type: "offer"
+    },
+    {
+        id: 3,
+        text: "New Arrivals: Clean Code by Robert C. Martin",
+        type: "arrival"
+    },
+    {
+        id: 4,
+        text: "Flash Sale: All Science category books at 15% discount!",
+        type: "offer"
+    },
+    {
+        id: 5,
+        text: "New Arrivals: Thinking, Fast and Slow",
+        type: "arrival"
+    }
+];
+
 export default function Home() {
   return (
     <section>
+      <div className="bg-lime-50 py-3 border-y border-amber-200">
+            <Marquee pauseOnHover={true} speed={50}>
+                {marqueeData.map((item) => (
+                    <span key={item.id} className="mx-10 font-medium text-amber-900">
+                        {item.text} <span className="ml-10 text-amber-300">|</span>
+                    </span>
+                ))}
+            </Marquee>
+        </div>
       <div
         className="hero min-h-screen"
         style={{
