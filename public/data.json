@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "title": "Eloquent JavaScript",
+        "author": "Marijn Haverbeke",
+        "description": "A modern introduction to programming with JavaScript, covering language features and best practices.",
+        "category": "Tech",
+        "available_quantity": 5,
+        "image_url": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "description": "A profound novel about justice and innocence in the American South.",
+        "category": "Story",
+        "available_quantity": 6,
+        "image_url": "https://m.media-amazon.com/images/I/81gepf1eMqL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 3,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "description": "A fable about following your dream and listening to your heart.",
+        "category": "Story",
+        "available_quantity": 10,
+        "image_url": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "description": "A handbook of agile software craftsmanship for writing better, cleaner code.",
+        "category": "Tech",
+        "available_quantity": 4,
+        "image_url": "https://m.media-amazon.com/images/I/41xShlnTZTL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Cosmos",
+        "author": "Carl Sagan",
+        "description": "The story of cosmic evolution and the development of science and civilization.",
+        "category": "Science",
+        "available_quantity": 2,
+        "image_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 6,
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "description": "A shocking psychological thriller about a woman's act of violence against her husband.",
+        "category": "Story",
+        "available_quantity": 8,
+        "image_url": "https://m.media-amazon.com/images/I/81JJ7fyyKyS._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "React Key Concepts",
+        "author": "Maximillian Schwarzmüller",
+        "description": "A deep dive into the core concepts of React for modern web development.",
+        "category": "Tech",
+        "available_quantity": 6,
+        "image_url": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 8,
+        "title": "Seven Brief Lessons on Physics",
+        "author": "Carlo Rovelli",
+        "description": "A beautiful and simple introduction to the wonders of modern physics.",
+        "category": "Science",
+        "available_quantity": 4,
+        "image_url": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=500&auto=format&fit=crop"
+    },
+    {
+        "id": 9,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "description": "A story of ambition, wealth, and love in the Jazz Age.",
+        "category": "Story",
+        "available_quantity": 7,
+        "image_url": "https://images.pexels.com/photos/904620/pexels-photo-904620.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Designing Data Applications",
+        "author": "Martin Kleppmann",
+        "description": "The fundamental principles of data system design and modern architecture.",
+        "category": "Tech",
+        "available_quantity": 3,
+        "image_url": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Sapiens",
+        "author": "Yuval Noah Harari",
+        "description": "A brief history of humankind, from our ancestors to the modern world.",
+        "category": "Science",
+        "available_quantity": 5,
+        "image_url": "https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 12,
+        "title": "A Brief History of Time",
+        "author": "Stephen Hawking",
+        "description": "Explore the origin and fate of the universe in this classic science book.",
+        "category": "Science",
+        "available_quantity": 3,
+        "image_url": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?q=80&w=500&auto=format&fit=crop"
+    }
+]

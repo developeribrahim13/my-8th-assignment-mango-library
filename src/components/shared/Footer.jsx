@@ -17,13 +17,13 @@ const Footer = () => {
                             The best online platform to read and collect your favorite books. Borrow books digitally and spread the light of knowledge.
                         </p>
                         <div className="flex gap-4 text-xl">
-                            <a href="#" className="hover:text-primary transition-colors"><FaFacebook /></a>
-                            <a href="#" className="hover:text-primary transition-colors"><FaTwitter /></a>
-                            <a href="#" className="hover:text-primary transition-colors"><FaInstagram /></a>
-                            <a href="#" className="hover:text-primary transition-colors"><FaLinkedin /></a>
+                            <Link href="#" className="hover:text-primary transition-colors"><FaFacebook /></Link>
+                            <Link href="#" className="hover:text-primary transition-colors"><FaTwitter /></Link>
+                            <Link href="#" className="hover:text-primary transition-colors"><FaInstagram /></Link>
+                            <Link href="#" className="hover:text-primary transition-colors"><FaLinkedin /></Link>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-4 md:items-center">
+                    <div className="flex flex-col space-y-4 md:items-center pt-4">
                         <div>
                             <h3 className="footer-title opacity-100 text-lg mb-4">Quick Links</h3>
                             <ul className="space-y-2 text-gray-500 font-medium">
@@ -34,7 +34,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col space-y-4 pt-4">
                         <h3 className="footer-title opacity-100 text-lg mb-2">Contact Us</h3>
                         <div className="space-y-3">
                             <div className="flex items-center gap-3">

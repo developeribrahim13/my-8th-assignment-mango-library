@@ -14,15 +14,15 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex="-1"
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-2 shadow ">
                         <li><Navlink href={'/'}>Home</Navlink></li>
                         <li><Navlink href={'/all-books'}>All Books</Navlink></li>
                         <li><Navlink href={'/profile'}>My Profile</Navlink></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl"> <Link href={'/'}><div className='text-center font-extrabold text-2xl relative'>
+                <Link href={'/'} className="btn btn-ghost text-xl"><div className='text-center font-extrabold text-2xl relative'>
                             <Image src={mango} alt='mango' width={60} className='opacity-30 pb-5'></Image><h2 className='text-xl absolute top-7'>Library</h2>
-                        </div></Link></a>
+                        </div></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

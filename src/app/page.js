@@ -1,6 +1,8 @@
 import Image from "next/image";
 import banner from '@/assets/banner.png'
 import Marquee from "react-fast-marquee";
+import { fetchBooks } from "@/lib/data";
+import FeaturedBooks from "@/components/shared/FeaturedBooks";
 
 const marqueeData = [
     {
@@ -30,7 +32,8 @@ const marqueeData = [
     }
 ];
 
-export default function Home() {
+export default async function Home() {
+  const books = await fetchBooks();
   return (
     <section>
       <div className="bg-lime-50 py-3 border-y border-amber-200">
@@ -60,6 +63,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+        <FeaturedBooks books={books}></FeaturedBooks>
     </section>
   );
 }
