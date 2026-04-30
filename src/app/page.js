@@ -3,6 +3,8 @@ import banner from '@/assets/banner.png'
 import Marquee from "react-fast-marquee";
 import { fetchBooks } from "@/lib/data";
 import FeaturedBooks from "@/components/shared/FeaturedBooks";
+import Features from "@/components/shared/Features";
+import Categories from "@/components/shared/Categories";
 
 const marqueeData = [
     {
@@ -64,6 +66,8 @@ export default async function Home() {
         </div>
       </div>
         <FeaturedBooks books={books}></FeaturedBooks>
+        <Features/>
+        <Categories/>
     </section>
   );
 }

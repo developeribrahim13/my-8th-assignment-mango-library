@@ -17,20 +17,20 @@ const Footer = () => {
                             The best online platform to read and collect your favorite books. Borrow books digitally and spread the light of knowledge.
                         </p>
                         <div className="flex gap-4 text-xl">
-                            <Link href="#" className="hover:text-primary transition-colors"><FaFacebook /></Link>
-                            <Link href="#" className="hover:text-primary transition-colors"><FaTwitter /></Link>
-                            <Link href="#" className="hover:text-primary transition-colors"><FaInstagram /></Link>
-                            <Link href="#" className="hover:text-primary transition-colors"><FaLinkedin /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaFacebook /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaTwitter /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaInstagram /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaLinkedin /></Link>
                         </div>
                     </div>
                     <div className="flex flex-col space-y-4 md:items-center pt-4">
                         <div>
                             <h3 className="footer-title opacity-100 text-lg mb-4">Quick Links</h3>
-                            <ul className="space-y-2 text-gray-500 font-medium">
-                                <li><Link href="/" className="link link-hover">Home</Link></li>
-                                <li><Link href="/all-books" className="link link-hover">All Books</Link></li>
-                                <li><Link href="/profile" className="link link-hover">My Profile</Link></li>
-                                <li><Link href="/login" className="link link-hover">Login</Link></li>
+                            <ul className="space-y-2 text-gray-500 font-normal">
+                                <li><Link href="/" className="hover:text-lime-600 hover:border-b hover:border-amber-400">Home</Link></li>
+                                <li><Link href="/all-books" className="hover:text-lime-600 hover:border-b hover:border-amber-400">All Books</Link></li>
+                                <li><Link href="/profile" className="hover:text-lime-600 hover:border-b hover:border-amber-400">My Profile</Link></li>
+                                <li><Link href="/login" className="hover:text-lime-600 hover:border-b hover:border-amber-400">Login</Link></li>
                             </ul>
                         </div>
                     </div>
