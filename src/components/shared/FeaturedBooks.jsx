@@ -18,9 +18,9 @@ const FeaturedBooks = ({books}) => {
                             <Image
                                 src={book.image_url} 
                                 alt={book.title} 
-                                width={300}
+                               width={300}
                                 height={600}
-                                className="rounded-xl h-64 w-full object-cover" 
+                                className="rounded-xl h-64 w-full object-cover"
                             />
                         </figure>
                         <div className="card-body items-center text-center">
