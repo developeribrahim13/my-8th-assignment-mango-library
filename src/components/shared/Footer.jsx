@@ -13,15 +13,9 @@ const Footer = () => {
                         <Link href={'/'}><div className='text-center font-extrabold text-2xl relative'>
                             <Image src={mango} alt='mango' width={100} className='opacity-30'></Image><h2 className='text-3xl absolute top-12'>Library</h2>
                         </div></Link>
-                        <p className="max-w-xs text-sm opacity-80 mt-2 text-gray-600">
+                        <p className="max-w-xs text-sm opacity-80 mt-4 text-gray-600">
                             The best online platform to read and collect your favorite books. Borrow books digitally and spread the light of knowledge.
                         </p>
-                        <div className="flex gap-4 text-xl">
-                            <Link href="#" className="hover:text-warning transition-colors"><FaFacebook /></Link>
-                            <Link href="#" className="hover:text-warning transition-colors"><FaTwitter /></Link>
-                            <Link href="#" className="hover:text-warning transition-colors"><FaInstagram /></Link>
-                            <Link href="#" className="hover:text-warning transition-colors"><FaLinkedin /></Link>
-                        </div>
                     </div>
                     <div className="flex flex-col space-y-4 md:items-center pt-4">
                         <div>
@@ -49,6 +43,12 @@ const Footer = () => {
                                 <FaEnvelope className="text-warning" />
                                 <span className="text-sm">support@mangolibrary.com</span>
                             </div>
+                        </div>
+                         <div className="flex gap-4 text-xl">
+                            <Link href="#" className="hover:text-warning transition-colors"><FaFacebook /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaTwitter /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaInstagram /></Link>
+                            <Link href="#" className="hover:text-warning transition-colors"><FaLinkedin /></Link>
                         </div>
                     </div>
                 </div>

@@ -4,3 +4,9 @@ export const fetchBooks = async () => {
     const data = rspns.json()
     return data;
 }
+
+export const fetchBookById = async(id)=>{
+    const rspns = await fetchBooks();
+    const book = rspns.find(f=>f.id==id)
+    return book;
+}

@@ -28,7 +28,7 @@ const FeaturedBooks = ({books}) => {
                             <p className="text-sm text-gray-500">By {book.author}</p>
                             <div className={`badge badge-soft ${book.category=="Science"?"badge-success":book.category=="Tech"?"badge-info":"badge-error"}`}>{book.category}</div>
                             <div className="card-actions mt-4">
-                                <Link href={`/book/${book.id}`}>
+                                <Link href={`/bookDetails/${book.id}`}>
                                     <button className="btn btn-primary btn-sm bg-amber-600 border-none hover:bg-amber-700 text-white">
                                         View Details
                                     </button>
