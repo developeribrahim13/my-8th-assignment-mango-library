@@ -68,9 +68,12 @@ const LoginPage = () => {
                                 <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                             </label>
                         </div>
-                        <div className="form-control mt-4">
+                        <div className="form-control mt-4 space-x-2.5">
                             <button className="btn btn-primary bg-amber-600 border-none hover:bg-amber-700 text-white font-bold">
                                 Login
+                            </button>
+                            <button type="reset" className="btn btn-primary bg-amber-600 border-none hover:bg-amber-700 text-white font-bold">
+                                Reset
                             </button>
                         </div>
                         <div className="divider">OR</div>

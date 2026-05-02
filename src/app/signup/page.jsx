@@ -86,9 +86,12 @@ const SignupPage = () => {
                                 required 
                             />
                         </div>
-                        <div className="form-control mt-6">
+                        <div className="form-control mt-6 space-x-2.5">
                             <button className="btn btn-primary bg-amber-600 border-none hover:bg-amber-700 text-white font-bold">
                                 Signup
+                            </button>
+                            <button type="reset" className="btn btn-primary bg-amber-600 border-none hover:bg-amber-700 text-white font-bold">
+                                Reset
                             </button>
                         </div>
                         <p className="text-center mt-4 text-sm text-gray-600">

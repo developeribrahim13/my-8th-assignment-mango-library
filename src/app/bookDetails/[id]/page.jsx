@@ -2,21 +2,32 @@ import { fetchBookById } from '@/lib/data';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
+import BorrowButton from "@/components/BorrowButton";
 
-const BookDetails = async ({params}) => {
-    const {id} = await params;
+const BookDetails = async ({ params }) => {
+    const session = await auth.api.getSession({
+        headers: await headers()
+    });
+    if (!session) {
+        redirect("/login");
+    }
+
+    const { id } = await params;
     const book = await fetchBookById(id);
     if (!book) {
         return <div className="text-center py-20 text-2xl text-amber-600">Book not found!</div>;
     }
     return (
-       <div className="max-w-[80%] mx-auto px-5 py-16">
+        <div className="max-w-[80%] mx-auto px-5 py-16">
             <div className="flex flex-col md:flex-row gap-10 bg-base-100 shadow-2xl rounded-3xl p-8 border border-gray-100">
                 <div className="w-full md:w-1/3">
                     <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-lg">
-                        <Image 
-                            src={book.image_url} 
-                            alt={book.title} 
+                        <Image
+                            src={book.image_url}
+                            alt={book.title}
                             width={300}
                             height={450}
                         />
@@ -39,9 +50,9 @@ const BookDetails = async ({params}) => {
                         </div>
                     </div>
                     <div className="card-actions justify-start gap-4">
-                        <button className="btn btn-primary bg-amber-600 border-none hover:bg-amber-700 px-10">
-                            Borrow Now
-                        </button>
+                        <BorrowButton
+                            bookTitle={book.title}
+                            quantity={book.available_quantity} />
                         <Link href="/">
                             <button className="btn btn-outline border-amber-600 text-amber-600 hover:bg-amber-600 hover:border-amber-600">
                                 Back to Home
