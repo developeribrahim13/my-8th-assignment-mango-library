@@ -51,7 +51,7 @@ const AllBooksPage = async ({ searchParams }) => {
                 </div>
 
                 <div className="flex-1">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 animate__animated animate__fadeInUp">
                         {filteredBooks.length > 0 ? (
                             filteredBooks.map(book => (
                                 <div key={book.id} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-all border border-gray-100 group">

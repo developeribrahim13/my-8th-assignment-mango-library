@@ -15,7 +15,7 @@ const MyProfile = async () => {
 
     return (
         <div className="max-w-4xl mx-auto px-5 py-16">
-            <div className="bg-base-100 shadow-2xl rounded-3xl overflow-hidden border border-gray-100">
+            <div className="bg-base-100 shadow-2xl rounded-3xl overflow-hidden border border-gray-100 animate__animated animate__fadeInUp">
                 <div className="h-32 bg-amber-500 flex justify-center items-center text-white text-3xl">MANGO LIBRARY</div>
                 <div className="p-8 -mt-16 flex flex-col items-center">
                     <div className="avatar">

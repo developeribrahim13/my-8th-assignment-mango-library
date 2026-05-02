@@ -28,7 +28,7 @@ const UpdateProfile = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow-2xl rounded-2xl border border-amber-100">
+        <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow-2xl rounded-2xl border border-amber-100 animate__animated animate__fadeInUp">
             <Toaster />
             <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Update Profile</h2>
             

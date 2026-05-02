@@ -13,7 +13,7 @@ const FeaturedBooks = ({books}) => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {sliceBooks.map((book) => (
-                    <div key={book.id} className="card bg-gray-200 shadow-lg hover:shadow-xl transition-shadow border border-amber-50">
+                    <div key={book.id} className="card animate__animated animate__fadeInUp bg-gray-200 shadow-lg hover:shadow-xl transition-shadow border border-amber-50">
                         <figure className="px-4 pt-4">
                             <Image
                                 src={book.image_url} 

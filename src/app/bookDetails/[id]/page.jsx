@@ -22,7 +22,7 @@ const BookDetails = async ({ params }) => {
     }
     return (
         <div className="max-w-[80%] mx-auto px-5 py-16">
-            <div className="flex flex-col md:flex-row gap-10 bg-base-100 shadow-2xl rounded-3xl p-8 border border-gray-100">
+            <div className="flex flex-col md:flex-row gap-10 bg-base-100 shadow-2xl rounded-3xl p-8 border border-gray-100 animate__animated animate__fadeInUp">
                 <div className="w-full md:w-1/3">
                     <div className="relative h-full w-full rounded-2xl overflow-hidden shadow-lg">
                         <Image

@@ -57,7 +57,7 @@ export default async function Home() {
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Find Your Next Read</h1>
+            <h1 className="mb-5 text-5xl font-bold animate__bounceIn">Find Your Next Read</h1>
             <p className="mb-5">
               Find your favorite book from our vast collection and borrow it digitally. We are with you on this journey of knowledge.
             </p>
