@@ -18,6 +18,7 @@ const SignupPage = () => {
             password,
             name,
             image,
+            autoSignIn: false,
         });
 
         if (error) {
@@ -26,6 +27,7 @@ const SignupPage = () => {
         } 
         else 
             toast.success("Account created successfully!");
+            e.target.reset();
     };
 
     return (

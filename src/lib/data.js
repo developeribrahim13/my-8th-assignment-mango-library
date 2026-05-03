@@ -1,6 +1,7 @@
 
 export const fetchBooks = async () => {
-    const rspns = await fetch('http://localhost:3000//data.json')
+    const baseUrl = process.env.BETTER_AUTH_URL
+    const rspns = await fetch(`${baseUrl}//data.json`)
     const data = rspns.json()
     return data;
 }

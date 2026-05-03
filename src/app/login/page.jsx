@@ -20,6 +20,7 @@ const LoginPage = () => {
             toast.error("Invalid Email or Password!");
         else
           toast.success("Successfully Logged In!");
+          e.target.reset();
     };
     const handleGoogleLogin = async () => {
     const {data,error} = await authClient.signIn.social({
