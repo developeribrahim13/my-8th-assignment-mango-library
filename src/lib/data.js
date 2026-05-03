@@ -1,8 +1,7 @@
 
 export const fetchBooks = async () => {
-    const baseUrl = process.env.BETTER_AUTH_URL
-    const rspns = await fetch(`${baseUrl}//data.json`)
-    const data = rspns.json()
+    const rspns = await fetch('https://mango-server-vwic.onrender.com/products')
+    const data = await rspns.json()
     return data;
 }
 
