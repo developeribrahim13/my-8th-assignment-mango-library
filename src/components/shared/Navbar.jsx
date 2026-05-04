@@ -59,15 +59,15 @@ const Navbar = () => {
                                     />
                                 </div>
                             </div>
-                                <button onClick={handleLogout} className="text-white font-bold btn btn-warning ml-3">Logout</button>
+                                <button onClick={handleLogout} className="text-white max-[1045px]:w-[55px] font-bold btn btn-warning ml-3">Logout</button>
                         </div>
                     </div>
                 )
                  : 
                 (
-                    <div>
-                        <Link href={'/login'} className='btn bg-amber-500 rounded-lg text-white font-semibold'>Login</Link>
-                        <Link href={'/signup'} className='btn bg-amber-500 rounded-lg text-white font-semibold'>Signup</Link>
+                    <div className='max-[366px]:w-full max-[366px]:space-x-1.5'>
+                        <Link href={'/login'} className='btn max-[366px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Login</Link>
+                        <Link href={'/signup'} className='btn max-[366px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Signup</Link>
                     </div>
                 )}
             </div>
