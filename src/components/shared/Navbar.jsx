@@ -66,8 +66,8 @@ const Navbar = () => {
                  : 
                 (
                     <div className='max-[366px]:w-full max-[366px]:space-x-1.5'>
-                        <Link href={'/login'} className='btn max-[366px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Login</Link>
-                        <Link href={'/signup'} className='btn max-[366px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Signup</Link>
+                        <Link href={'/login'} className='btn max-[378px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Login</Link>
+                        <Link href={'/signup'} className='btn max-[378px]:w-[55px] bg-amber-500 rounded-lg text-white font-semibold'>Signup</Link>
                     </div>
                 )}
             </div>
