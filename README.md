@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥭 Mango Library - Online Book Borrowing Platform
 
-## Getting Started
+**Category-A8-Mango Assignment**
 
-First, run the development server:
+Mango Library is a seamless and modern web application designed to digitize the traditional library experience. Users can explore, filter, and borrow books digitally with a secure and responsive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live URL
+https://my-8th-assignment-mango-library.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
+- **Secure Authentication:** Powered by **BetterAuth** (Login, Register, and Google Social Login).
+- **Book Management:** Explore 12+ books with category-based filtering (Story, Tech, Science).
+- **Search Functionality:** Real-time search bar to find books by title.
+- **User Profile:** Dedicated profile page to view and update name/photo.
+- **Interactive UI:** Dynamic entrance animations using **Animate.css**.
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack & Packages
+- **Framework:** Next.js
+- **Database:** MongoDB
+- **Styling:** Tailwind CSS & DaisyUI
+- **Authentication:** BetterAuth
+- **Key Packages:** `animate.css`, `react-hot-toast`, `react-icons`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏗️ Local Setup
+1. Clone the repo: `git clone https://github.com/developeribrahim13/my-8th-assignment-mango-library.git`
+2. Install dependencies: `npm install`
+3. Set up `.env` with MongoDB, Google Client ID, and BetterAuth Secret.
+4. Run development server: `npm run dev`
